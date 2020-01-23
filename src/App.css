@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(230, 236, 240);
+}
+.Container {
+  text-align: center;
+}
+
+.Tweet {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: 1px solid white;
+}
+
+.postform {
+  text-align: center;
+}
+textarea {
+  width: 60%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+#post-button {
+  background-color: midnightblue;
+  color: white;
+  width: 5%;
+  height: 30px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+
+.welcome-heading {
+  text-align: center;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.signup-form {
+  align-items: center;
+  text-align: center;
+}
