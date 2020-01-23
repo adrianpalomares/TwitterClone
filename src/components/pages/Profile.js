@@ -73,7 +73,7 @@ class Profile extends React.Component {
       <div className="profile-page">
         <h1>{localStorage.getItem("username")}'s Profile</h1>
         Username
-        <input type="text" id="username-field" />
+        <input type="text" id="username-field" readOnly />
         <br />
         Email
         <input type="text" id="email-field" /> <br />
