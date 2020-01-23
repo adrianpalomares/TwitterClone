@@ -3,10 +3,6 @@ import Container from "@material-ui/core/Container";
 import Tweet from "./Tweet";
 
 class Postlist extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     if (this.props.posts.length === 0) {
       return <h1>Loading...</h1>;
