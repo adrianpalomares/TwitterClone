@@ -7,7 +7,7 @@ A simple tweeter clone built with the MERN(MongoDB, Express, React.js, Node.js) 
 ### Prerequisites
 * Node.js
 * MongoDB
-### Installation
+### Installation(to run locally)
 1. Clone this repository
 ```
 git clone https://github.com/adrianpalomares/tweeter-client.git
