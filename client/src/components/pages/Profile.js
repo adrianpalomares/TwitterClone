@@ -16,7 +16,7 @@ class Profile extends React.Component {
 
     axios({
       method: "get",
-      url: `https://polar-peak-00113.herokuapp.com/users/${localStorage.getItem(
+      url: `https://quiet-chamber-54675.herokuapp.com/users/${localStorage.getItem(
         "username"
       )}`
     }).then(response => {
@@ -40,7 +40,7 @@ class Profile extends React.Component {
 
     axios({
       method: "PUT",
-      url: `https://polar-peak-00113.herokuapp.com/users/${localStorage.getItem(
+      url: `https://quiet-chamber-54675.herokuapp.com/users/${localStorage.getItem(
         "_id"
       )}`,
       headers: {

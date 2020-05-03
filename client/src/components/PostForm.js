@@ -9,7 +9,7 @@ class PostForm extends React.Component {
 
     axios({
       url:
-        "https://cors-anywhere.herokuapp.com/https://polar-peak-00113.herokuapp.com/posts",
+        "https://quiet-chamber-54675.herokuapp.com/posts",
 
       method: "post",
       headers: { "Access-Control-Allow-Origin": true },

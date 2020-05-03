@@ -15,7 +15,7 @@ class Home extends React.Component {
   componentDidMount() {
     axios
       .get(
-        "https://cors-anywhere.herokuapp.com/https://polar-peak-00113.herokuapp.com/posts"
+        "https://quiet-chamber-54675.herokuapp.com/posts"
       )
       .then(response => this.setState({ posts: response.data }));
   }

@@ -17,7 +17,7 @@ class Signup extends React.Component {
 
     axios
       .post(
-        "https://cors-anywhere.herokuapp.com/https://polar-peak-00113.herokuapp.com/users",
+        "https://quiet-chamber-54675.herokuapp.com/users",
         {
           username: username,
           email: email,

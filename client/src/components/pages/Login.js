@@ -14,13 +14,13 @@ class Login extends React.Component {
     axios({
       method: "post",
       url:
-        "https://cors-anywhere.herokuapp.com/https://polar-peak-00113.herokuapp.com/auth",
+        "https://quiet-chamber-54675.herokuapp.com/auth",
       data: { username: formUsername, password: formPassword }
     })
       .then(response => {
         if (response.data.result === true) {
           return axios.get(
-            `https://cors-anywhere.herokuapp.com/https://polar-peak-00113.herokuapp.com/users/${formUsername}`
+            `https://quiet-chamber-54675.herokuapp.com/users/${formUsername}`
           );
         } else {
           throw new Error("Username or password is wrong");
