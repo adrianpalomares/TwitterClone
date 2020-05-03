@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(230, 236, 240);
+}
+.Container {
+  text-align: center;
+}
+
+.Tweet {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px;
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: 1px solid white;
+}
+
+.postform {
+  text-align: center;
+}
+textarea {
+  width: 60%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+#post-button {
+  background-color: midnightblue;
+  color: white;
+  width: 10%;
+  height: 30px;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+
+.welcome-heading {
+  text-align: center;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.signup-form {
+  align-items: center;
+  text-align: center;
+}
+
+.profile-page {
+  text-align: center;
+}
+.profile-page input {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.profile-page button {
+  color: white;
+  width: 7%;
+  margin: 5px;
+}
+
+#save {
+  background-color: green;
+}
+
+#reset {
+  background-color: blue;
+}
